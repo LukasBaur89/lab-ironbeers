@@ -5,3 +5,88 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #2081c3;
+}
+
+.navbar-nav {
+  padding-left: 7em;
+}
+
+.nav-link {
+  color: #f7f9f9;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #bfbfbf;
+}
+
+.grid {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 3rem;
+}
+
+.grid > * {
+  flex-basis: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: none;
+}
+
+.random-image,
+.beer-image {
+  width: 80px;
+  margin: 0 auto;
+}
+
+.beer-body {
+  margin: 2em;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.homepage > * {
+  margin-bottom: 1.5em;
+}
+
+footer {
+  background-color: #0a2c42;
+  color: #f7f9f9;
+  padding-top: 1em;
+  padding-left: 7em;
+  margin-top: auto;
+}
+
+.grid-random {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+
+.random-image {
+  margin-right: 2em;
+}
